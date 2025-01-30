@@ -15,6 +15,10 @@ import ast
 
 load_dotenv()
 
-llm = Ollama(model="mistral", request_timeout=30.0)
+llm = Ollama(model="mistral", request_timeout=30.0)  
 
+
+
+def(input):
+    ollama = model.mistral 
 parser = LlamaParse(result_type="markdown")
